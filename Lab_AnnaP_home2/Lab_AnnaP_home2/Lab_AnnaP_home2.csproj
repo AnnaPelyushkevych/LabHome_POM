@@ -8,10 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Logs\example.log" />
     <None Remove="Resources\rozetkaFilters.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Logs\example.log" />
     <EmbeddedResource Include="Resources\rozetkaFilters.json" />
   </ItemGroup>
 
@@ -30,6 +32,12 @@
     <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="100.0.4896.6000" />
     <PackageReference Include="WebDriverManager" Version="2.12.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
