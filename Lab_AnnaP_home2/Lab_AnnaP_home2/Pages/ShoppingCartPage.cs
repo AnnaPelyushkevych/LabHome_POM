@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using SeleniumExtras.PageObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,14 +10,15 @@ namespace Lab_AnnaP_home2.Pages
 {
     public class ShoppingCartPage : BasePage
     {
-        private const string CART_RECEIPTE = @"//div[@class='cart-receipt__sum']//span[not(@class)]";
+        [FindsBy(How = How.XPath, Using = @"//div[@class='cart-receipt__sum']//span[not(@class)]")]
+        private IWebElement _cartReceipte;
 
         public ShoppingCartPage(IWebDriver driver) : base(driver)
         {
         }
         public int FindAndGetPrice()
         {
-            var text = Driver.FindElement(By.XPath(CART_RECEIPTE)).Text;
+            var text = Driver.FindElement(By.XPath(@"//div[@class='cart-receipt__sum']//span[not(@class)]")).Text;
             Console.WriteLine($"text = {text}");
             int price = Convert.ToInt32(text);
             return price;

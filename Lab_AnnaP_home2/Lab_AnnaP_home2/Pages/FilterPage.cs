@@ -1,16 +1,24 @@
 ﻿using OpenQA.Selenium;
+using SeleniumExtras.PageObjects;
 
 namespace Lab_AnnaP_home2.Pages
 {
     public class FilterPage : BasePage
     {
-        private readonly string _searchInput = @"//div[@data-filter-name='producer']//input";
-        private readonly string _brandName = @"//div[@data-filter-name='producer']//ul//li[1]";
-        private readonly string _filterDropDown = @"//select[@class]";
-        private readonly string FILTER_EXPENSIVE = @"//option[contains(@value,'expensive')]";
-        private readonly string FIRST_ITEM_IN_LIST = @"//ul[contains(@class, 'catalog')]//li[contains(@class, 'catalog')][1]//a//span[contains(@class, 'title')]";
-            //@"//ul[contains(@class, 'catalog')]//li[1]//a"; 
-            //@"//ul[contains(@class, 'catalog')]//li[1]";
+        [FindsBy(How = How.XPath, Using = @"//div[@data-filter-name='producer']//input")]
+        private IWebElement _searchInput;
+        
+        [FindsBy(How = How.XPath, Using = @"//div[@data-filter-name='producer']//ul//li[1]")]
+        private IWebElement _brandName;
+
+        [FindsBy(How = How.XPath, Using = @"//select[@class]")]
+        private IWebElement _filterDropDown;
+
+        [FindsBy(How = How.XPath, Using =  @"//option[contains(@value,'expensive')]")]
+        private IWebElement _filterExpensive;
+
+        [FindsBy(How = How.XPath, Using = @"//ul[contains(@class, 'catalog')]//li[contains(@class, 'catalog')][1]//a//span[contains(@class, 'title')]")]
+        private IWebElement _firstItemInList;
 
         public FilterPage(IWebDriver driver) : base(driver)
         {
@@ -18,28 +26,28 @@ namespace Lab_AnnaP_home2.Pages
 
         public void SearchByKeyWord(string keyword)
         {
-            WaitElementVisible(By.XPath(_searchInput));
-            Driver.FindElement(By.XPath(_searchInput)).SendKeys(keyword + Keys.Enter);
+            WaitElementVisible(By.XPath(@"//div[@data-filter-name='producer']//input"));
+           _searchInput.SendKeys(keyword + Keys.Enter);
         }
 
         public void SelectByBrand()
         {
-            Driver.FindElement(By.XPath(_brandName)).Click();
+            _brandName.Click();
         }
 
         public void FilterByPriceDropdownClick()
         {
-            Driver.FindElement(By.XPath(_filterDropDown)).Click();
+            _filterDropDown.Click();
         }
 
         public void SortExpensive()
         {
-            Driver.FindElement(By.XPath(FILTER_EXPENSIVE)).Click();
+            _filterExpensive.Click();
         }
 
         public void FirstItemInList()
         {
-            Driver.FindElement(By.XPath(FIRST_ITEM_IN_LIST)).Click();
+            _firstItemInList.Click();
         }
 
     }
