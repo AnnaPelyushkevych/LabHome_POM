@@ -1,4 +1,160 @@
-
-INFO NonParallelWorker Lab_AnnaP_home2.Tests - Setup Configured
-INFO NonParallelWorker Lab_AnnaP_home2.Tests - Search on home page executed
-INFO NonParallelWorker Lab_AnnaP_home2.Tests - Search by [HP] brand executed
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - item = Смартфони, brand = Apple, price = 30000
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Search on HomePage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - item = Мишка для ПК, brand = Microsoft, price = 500
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Search on HomePage
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - item = Ноутбуки, brand = HP, price = 50000
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Search on HomePage
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Search on FilterPage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Search on FilterPage
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Search on FilterPage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Started sorting by exepensive
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Started sorting by exepensive
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Started sorting by exepensive
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - End of sorting
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - End of sorting
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - First Item selected
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - End of sorting
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - First Item selected
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - First Item selected
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion started
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion started
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion ended
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion started
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion ended
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion ended
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - item = Навушники, brand = Razer, price = 1000
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Search on HomePage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - item = Планшети, brand = Lenovo, price = 2000
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Search on HomePage
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Search on FilterPage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Search on FilterPage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Started sorting by exepensive
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Started sorting by exepensive
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - End of sorting
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - First Item selected
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion started
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion ended
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - End of sorting
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - First Item selected
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion started
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion ended
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - item = Ноутбуки, brand = HP, price = 50000
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Search on HomePage
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - item = Мишка для ПК, brand = Microsoft, price = 500
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Search on HomePage
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Search on FilterPage
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - item = Смартфони, brand = Apple, price = 30000
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Search on HomePage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Search on FilterPage
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Search on FilterPage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Started sorting by exepensive
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Started sorting by exepensive
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Started sorting by exepensive
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - End of sorting
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - End of sorting
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - End of sorting
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - First Item selected
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - First Item selected
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - First Item selected
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion started
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion started
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion ended
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion ended
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion started
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - item = Навушники, brand = Razer, price = 1000
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Search on HomePage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - item = Планшети, brand = Lenovo, price = 2000
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Search on HomePage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Search on FilterPage
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Search on FilterPage
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Started sorting by exepensive
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Started sorting by exepensive
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - End of sorting
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - First Item selected
+ERROR ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Test failed with this exception message no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='cart-receipt__sum']//span[not(@class)]"}
+  (Session info: chrome=101.0.4951.41)
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion started
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion ended
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - End of sorting
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - First Item selected
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Element WebElement Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion started
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion ended
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished

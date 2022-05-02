@@ -7,7 +7,7 @@ namespace Lab_AnnaP_home2.Pages
 {
     public class BasePage
     {
-        const int _timeout = 10000;
+        const int _timeout = 3000;
         IWebDriver _driver;
 
         public IWebDriver Driver
@@ -28,12 +28,17 @@ namespace Lab_AnnaP_home2.Pages
 
         public void WaitElementVisible(By criteria)
         {
-            new WebDriverWait(_driver, TimeSpan.FromSeconds(_timeout)).Until(ExpectedConditions.ElementExists(criteria));
+            new WebDriverWait(_driver, TimeSpan.FromSeconds(_timeout)).Until(ExpectedConditions.ElementIsVisible(criteria));
+        }
+
+        public void WaitForTextInElement(IWebElement element, string text)
+        {
+            new WebDriverWait(_driver, TimeSpan.FromSeconds(_timeout)).Until(ExpectedConditions.TextToBePresentInElement(element, text));
         }
 
         public void ImplicitWaitForSeconds(int seconds)
         {
-            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(seconds);
+            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(seconds);
         }
     }
 }

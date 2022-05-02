@@ -16,7 +16,9 @@ namespace Lab_AnnaP_home2.Pages
         }
         public int FindAndGetPrice()
         {
-            int price = Convert.ToInt32(Driver.FindElement(By.XPath(CART_RECEIPTE)).Text);
+            var text = Driver.FindElement(By.XPath(CART_RECEIPTE)).Text;
+            Console.WriteLine($"text = {text}");
+            int price = Convert.ToInt32(text);
             return price;
         }
     }

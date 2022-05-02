@@ -1,5 +1,29 @@
 ﻿{
-  "LaptopSearch": "Ноутбуки",
-  "LaptopBrand": "HP",
-  "PriceToCompare": "50000"
+  "Filters": [
+    {
+      "ItemSearch": "Ноутбуки",
+      "ItemBrand": "HP",
+      "PriceToCompare": "50000"
+    },
+    {
+      "ItemSearch": "Мишка для ПК",
+      "ItemBrand": "Microsoft",
+      "PriceToCompare": "500"
+    },
+    {
+      "ItemSearch": "Смартфони",
+      "ItemBrand": "Apple",
+      "PriceToCompare": "30000"
+    },
+    {
+      "ItemSearch": "Планшети",
+      "ItemBrand": "Lenovo",
+      "PriceToCompare": "2000"
+    },
+    {
+      "ItemSearch": "Навушники",
+      "ItemBrand": "Razer",
+      "PriceToCompare": "1000"
+    }
+  ]
 }

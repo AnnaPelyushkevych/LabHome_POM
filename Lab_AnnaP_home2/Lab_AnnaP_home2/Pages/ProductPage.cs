@@ -18,6 +18,8 @@ namespace Lab_AnnaP_home2.Pages
 
         private const string TABSLIST_ITEM = @"//ul[@class='tabs__list']";
 
+
+
         public ProductPage(IWebDriver driver) : base(driver)
         {
         }

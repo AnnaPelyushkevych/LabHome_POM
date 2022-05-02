@@ -13,76 +13,71 @@ using System.Threading;
 using WebDriverManager.DriverConfigs.Impl;
 using System.IO;
 
-namespace Lab_AnnaP_home2
+namespace Lab_AnnaP_home2.Tests
 {
-    public class Tests
+    [Parallelizable(ParallelScope.All)]
+    public class RozetkaTests : BaseTest
     {
-        private IWebDriver _driver;
-        private RozetkaFilters _filters;
-        private static readonly ILog log = LogManager.GetLogger(typeof(Tests));
-        private static readonly ILoggerRepository repository = log4net.LogManager.GetRepository(Assembly.GetCallingAssembly());
-        //private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
-        [SetUp]
-        public void Setup()
-        {
-            // Valid XML file with Log4Net Configurations
-            var fileInfo = new FileInfo(@"Log4net.config");
-
-            // Configure default logging repository with Log4Net configurations
-            XmlConfigurator.Configure(repository, fileInfo);
-
-            _filters = RozetkaFiltersJsonReader.GetFiltersObjectFromJson();
-            BasicConfigurator.Configure();
-
-            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
-            _driver = new ChromeDriver();
-            _driver.Manage().Window.Maximize();
-            _driver.Navigate().GoToUrl("https://rozetka.com.ua/");
-
-            // Log info
-            log.Info("Setup Configured");
-        }
-
-        [TearDown]
-        public void TeerDown()
-        {
-            _driver.Close();
-        }
-
         [Test]
-        public void MostExpensiveLaptopCostsMoreThanThreshold()
+        [TestCaseSource(typeof(TestDataProvider), nameof(TestDataProvider.FiltersToTest))]
+        public void MostExpensiveItemCostsMoreThanThreshold(SearchFilter filter)
         {
-            // HomePage manipulations
-            var homePage = new HomePage(_driver);
-            homePage.SearchByKeyWord(_filters.LaptopSearch);
-            log.Info("Search on home page executed");
-            
-            // FilterPage manipulations
-            var filterPage = new FilterPage(_driver);
-            filterPage.SearchByKeyWord(_filters.LaptopBrand);
-            filterPage.SelectedHPBrand();
-            log.Info("Search by [HP] brand executed");
+            log.Info("Test started with parametrs");
+            log.Info($"item = {filter.ItemSearch}, brand = {filter.ItemBrand}, price = {filter.PriceToCompare}");
 
-            filterPage.FilterByPrice();
-            filterPage.SortExpensive();
-            filterPage.WaitPageLoad();
-            Thread.Sleep(TimeSpan.FromSeconds(3));
-            filterPage.FirstItemInList();
+            try
+            {
+                var homePage = new HomePage(EventFiringWebDriver);
+                // Add log Search on home page
+                log.Info("Search on HomePage");
+                homePage.SearchByKeyWord(filter.ItemSearch);
+                homePage.WaitPageLoad();
 
-            // ProductPage manipulations
-            var productPage = new ProductPage(_driver);
-            productPage.ImplicitWaitForSeconds(3);
-            productPage.MoveToItemsListMenu();
-            productPage.ImplicitWaitForSeconds(4);
-            productPage.ClickAddToCart();
+                // FilterPage manipulations
+                var filterPage = new FilterPage(EventFiringWebDriver);
+                // Add log search on brand filter
+                log.Info("Search on FilterPage");
+                filterPage.SearchByKeyWord(filter.ItemBrand);
+                Thread.Sleep(TimeSpan.FromSeconds(3));
+                filterPage.SelectByBrand();
 
-            // ShoppingCartPage manipulations
-            var shoppingCartPage = new ShoppingCartPage(_driver);
-            shoppingCartPage.WaitPageLoad();
+                // Add log started sorting by expensive
+                log.Info("Started sorting by exepensive");
+                filterPage.FilterByPriceDropdownClick();
+                filterPage.SortExpensive();
+                filterPage.WaitPageLoad();
+                Thread.Sleep(TimeSpan.FromSeconds(2));
 
-            //Assertion
-            Assert.That(shoppingCartPage.FindAndGetPrice(), Is.GreaterThan(_filters.PriceToCompare));
+                // Add log end of sorting
+                log.Info("End of sorting");
+
+                filterPage.FirstItemInList();
+                // Add log First Item selected
+                log.Info("First Item selected");
+                // ProductPage manipulations
+                var productPage = new ProductPage(EventFiringWebDriver);
+                productPage.ImplicitWaitForSeconds(30);
+                productPage.MoveToItemsListMenu();
+                productPage.ClickAddToCart();
+
+                // ShoppingCartPage manipulations
+                var shoppingCartPage = new ShoppingCartPage(EventFiringWebDriver);
+                Thread.Sleep(TimeSpan.FromSeconds(1));
+
+                // Add log assertion started
+                log.Info("Assertion started");
+                //Assertion
+                Assert.That(shoppingCartPage.FindAndGetPrice(), Is.GreaterThan(filter.PriceToCompare));
+                // Add log assertion ended
+                log.Info("Assertion ended");
+
+                // Add log test finished
+                log.Info("Test finished");
+            }
+            catch (Exception ex)
+            {
+                log.Error($"Test failed with this exception message {ex.Message}");
+            }
         }
     }
 }
