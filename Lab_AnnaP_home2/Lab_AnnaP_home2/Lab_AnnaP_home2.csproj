@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Decorator\IWebElement1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Logs\example.log" />
     <None Remove="Resources\rozetkaFilters.json" />
   </ItemGroup>
