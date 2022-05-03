@@ -8,6 +8,16 @@ namespace Lab_AnnaP_home2.Pages
     {
         [FindsBy(How = How.XPath, Using = @"//input[@name = 'search']")]
         private IWebElement _searchInput;
+        
+        protected DecoratedSearchInput DecoratedSearch
+        {
+            get 
+            {
+                var originalInput = Driver.FindElement(By.XPath(@"//input[@name = 'search']"));
+                return new DecoratedSearchInput(originalInput); 
+                // return new DecoratedSearchInput(_searchInput);
+            }
+        }
 
         public HomePage(IWebDriver driver) : base(driver)
         {
@@ -16,7 +26,8 @@ namespace Lab_AnnaP_home2.Pages
 
         public void SearchByKeyWord(string keyword)
         {
-            _searchInput.SendKeys(keyword + Keys.Enter);
+            // Use Decorated input insted of original WebElement
+            DecoratedSearch.SendKeys(keyword + Keys.Enter);
         }
     }
 }

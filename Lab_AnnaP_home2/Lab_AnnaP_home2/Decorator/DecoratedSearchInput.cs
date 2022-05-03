@@ -10,7 +10,7 @@ namespace Lab_AnnaP_home2.Decorator
 {
     public class DecoratedSearchInput : DecoratedWebElement
     {
-        public DecoratedSearchInput(WebElement _webElement) : base(_webElement)
+        public DecoratedSearchInput(IWebElement _webElement) : base(_webElement)
         {
 
         }
@@ -20,7 +20,5 @@ namespace Lab_AnnaP_home2.Decorator
             webElement.Clear();
             webElement.SendKeys(keys);
         }
-
-        
     }
 }

@@ -11,12 +11,13 @@ namespace Lab_AnnaP_home2.Pages
 {
     public class DecoratedWebElement : IWebElement
     {
-        protected WebElement webElement;
+        protected IWebElement webElement;
 
-        public DecoratedWebElement(WebElement _webElement)
+        public DecoratedWebElement(IWebElement _webElement)
         {
             webElement = _webElement;
         }
+
         public string TagName => throw new NotImplementedException();
 
         public string Text => throw new NotImplementedException();
