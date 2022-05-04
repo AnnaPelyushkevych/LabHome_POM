@@ -13,9 +13,7 @@ namespace Lab_AnnaP_home2.Pages
         {
             get 
             {
-                var originalInput = Driver.FindElement(By.XPath(@"//input[@name = 'search']"));
-                return new DecoratedSearchInput(originalInput); 
-                // return new DecoratedSearchInput(_searchInput);
+                 return new DecoratedSearchInput(_searchInput);
             }
         }
 

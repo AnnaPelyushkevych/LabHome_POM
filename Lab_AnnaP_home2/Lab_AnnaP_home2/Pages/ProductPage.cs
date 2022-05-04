@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using Lab_AnnaP_home2.Decorator;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
@@ -22,7 +23,13 @@ namespace Lab_AnnaP_home2.Pages
         [FindsBy(How = How.XPath, Using = @"//ul[@class='tabs__list']")]
         private IWebElement _tablistItem;
 
-
+        protected DecoratedClickButton ClickableBuyButton
+        {
+            get
+            {
+                return new DecoratedClickButton(_buyButton);
+            }
+        }
 
         public ProductPage(IWebDriver driver) : base(driver)
         {

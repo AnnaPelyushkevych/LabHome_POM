@@ -84,7 +84,7 @@ namespace Lab_AnnaP_home2.Pages
 
         public virtual void SendKeys(string text)
         {
-        
+            webElement.SendKeys(text);
         }
 
         public void Submit()

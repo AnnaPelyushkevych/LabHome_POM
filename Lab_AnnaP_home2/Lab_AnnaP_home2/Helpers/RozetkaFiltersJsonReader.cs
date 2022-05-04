@@ -18,6 +18,7 @@ namespace Lab_AnnaP_home2.Helpers
             using (StreamReader reader = new StreamReader(stream))
             {
                 string jsonFile = reader.ReadToEnd();
+                //
                 filters = JsonConvert.DeserializeObject<RozetkaQueries>(jsonFile);
             }
 

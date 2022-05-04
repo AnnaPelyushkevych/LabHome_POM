@@ -17,8 +17,8 @@ namespace Lab_AnnaP_home2.Decorator
 
         public override void SendKeys(string keys)
         {
-            webElement.Clear();
-            webElement.SendKeys(keys);
+            base.Clear();
+            base.SendKeys(keys);
         }
     }
 }
