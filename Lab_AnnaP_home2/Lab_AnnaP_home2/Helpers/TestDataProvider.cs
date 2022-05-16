@@ -7,7 +7,6 @@ namespace Lab_AnnaP_home2.Helpers
         public static IEnumerable<SearchFilter> FiltersToTest()
         {
             var rozetkaQuery = RozetkaFiltersJsonReader.GetFiltersObjectFromJson();
-
             return rozetkaQuery.Filters;
         }
     }

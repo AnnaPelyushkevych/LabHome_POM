@@ -7,22 +7,20 @@ namespace Lab_AnnaP_home2.Helpers
 {
     public static class RozetkaFiltersJsonReader
     {
-
         public static RozetkaQueries GetFiltersObjectFromJson()
         {
             var assembly = Assembly.GetExecutingAssembly();
             var resourceName = "Lab_AnnaP_home2.Resources.rozetkaFilters.json";
 
-            RozetkaQueries filters;
+            RozetkaQueries queries;
             using (Stream stream = assembly.GetManifestResourceStream(resourceName))
             using (StreamReader reader = new StreamReader(stream))
             {
                 string jsonFile = reader.ReadToEnd();
-                //
-                filters = JsonConvert.DeserializeObject<RozetkaQueries>(jsonFile);
+                queries = JsonConvert.DeserializeObject<RozetkaQueries>(jsonFile);
             }
 
-            return filters;
+            return queries;
         }
     }
 }

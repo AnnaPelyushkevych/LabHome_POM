@@ -18,10 +18,10 @@ namespace Lab_AnnaP_home2.Tests
     public class BaseTest
     {
         private IWebDriver _driver;
+        private EventFiringWebDriver _eventFiringWebDriver;
         protected static readonly ILog log = LogManager.GetLogger(typeof(RozetkaTests));
         private static readonly ILoggerRepository repository = LogManager.GetRepository(Assembly.GetCallingAssembly());
 
-        private EventFiringWebDriver _eventFiringWebDriver;
         public EventFiringWebDriver EventFiringWebDriver { get { return _eventFiringWebDriver; } }
         public IWebDriver Driver { get { return _driver; } }
 
@@ -37,7 +37,6 @@ namespace Lab_AnnaP_home2.Tests
             _driver = new ChromeDriver();
             _eventFiringWebDriver = new EventFiringWebDriver(_driver);
             _eventFiringWebDriver.ElementClicked += FiringDriver_ElementClicked;
-
             _eventFiringWebDriver.Manage().Window.Maximize();
             _eventFiringWebDriver.Navigate().GoToUrl("https://rozetka.com.ua/");
             
@@ -46,15 +45,7 @@ namespace Lab_AnnaP_home2.Tests
 
         private void FiringDriver_ElementClicked(object? sender, WebElementEventArgs e)
         {
-            if (sender != null)
-            {
-                var type = e.Element.GetType();
-                if (type !=null)
-                {
-                    log.Info($"Element {type.Name} Clicked");
-                }
-            }
-            
+            log.Info($"Some Element Clicked");
         }
 
         [TearDown]

@@ -6,6 +6,7 @@ using System;
 namespace Lab_AnnaP_home2.Tests
 {
     [Parallelizable(ParallelScope.All)]
+    [TestFixture]
     public class RozetkaTests : BaseTest
     {
         [Test]

@@ -19,7 +19,6 @@ namespace Lab_AnnaP_home2.Pages
 
         public HomePage(IWebDriver driver) : base(driver)
         {
-            
         }
 
         public void SearchByKeyWord(string keyword)

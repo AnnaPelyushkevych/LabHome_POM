@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="1" result="Failed" label="Error" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.15.0.0" clr-version="4.0.30319.42000" start-time="2022-05-05 07:02:51Z" end-time="2022-05-05 07:02:51Z" duration="0.066765">
+  <command-line><![CDATA[nunit3-console  --test=Lab_AnnaP_home2.Tests.RozetkaTests.MostExpensiveItemCostsMoreThanThreshold C:\QA_course\QALaba\Home1_git\LabHome_POM\Lab_AnnaP_home2\Lab_AnnaP_home2\bin\Debug\net6.0\Lab_AnnaP_home2.dll]]></command-line>
+  <filter>
+    <test>Lab_AnnaP_home2.Tests.RozetkaTests.MostExpensiveItemCostsMoreThanThreshold</test>
+  </filter>
+  <test-suite type="Assembly" id="0" name="" fullname="" runstate="NotRunnable" testcasecount="1" result="Failed" label="Error" start-time="2022-05-05 07:02:51Z" end-time="2022-05-05 07:02:51Z" duration="0.001" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <failure>
+      <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+      <stack-trace><![CDATA[--Win32Exception
+The system cannot find the file specified
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at NUnit.Engine.Services.TestAgency.GetAgent(TestPackage package)
+   at NUnit.Engine.Runners.ProcessRunner.CreateAgentAndRunnerIfNeeded()
+   at NUnit.Engine.Runners.ProcessRunner.RunTests(ITestEventListener listener, TestFilter filter)
+]]></stack-trace>
+    </failure>
+  </test-suite>
+</test-run>
