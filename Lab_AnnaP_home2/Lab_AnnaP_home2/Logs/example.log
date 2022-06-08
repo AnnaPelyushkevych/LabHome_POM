@@ -11,3 +11,58 @@ INFO 16 Lab_AnnaP_home2.Tests.RozetkaTests - item = Мишка для ПК, bran
 ERROR 16 Lab_AnnaP_home2.Tests.RozetkaTests - Test failed with this exception message chrome not reachable
   (Session info: chrome=101.0.4951.54)
 INFO 16 Lab_AnnaP_home2.Tests.RozetkaTests - Closing driver
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - item = Мишка для ПК, brand = Microsoft, price = 500
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - item = Смартфон, brand = Apple, price = 30000
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - item = Ноутбуки, brand = HP, price = 50000
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion successfully completed
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Closing driver
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion successfully completed
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Closing driver
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion successfully completed
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#1 Lab_AnnaP_home2.Tests.RozetkaTests - Closing driver
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - item = Навушники, brand = Razer, price = 1000
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Setup Configured
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Test started with parametrs
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - item = Планшет, brand = Lenovo, price = 2000
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion successfully completed
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#2 Lab_AnnaP_home2.Tests.RozetkaTests - Closing driver
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Some Element Clicked
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Assertion successfully completed
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Test finished
+INFO ParallelWorker#3 Lab_AnnaP_home2.Tests.RozetkaTests - Closing driver

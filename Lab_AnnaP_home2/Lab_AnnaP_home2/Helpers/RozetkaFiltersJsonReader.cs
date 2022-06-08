@@ -10,9 +10,10 @@ namespace Lab_AnnaP_home2.Helpers
         public static RozetkaQueries GetFiltersObjectFromJson()
         {
             var assembly = Assembly.GetExecutingAssembly();
-            var resourceName = "Lab_AnnaP_home2.Resources.rozetkaFilters.json";
+            var resourceName = "RozetkaTest.Resources.rozetkaFilters.json";
 
             RozetkaQueries queries;
+
             using (Stream stream = assembly.GetManifestResourceStream(resourceName))
             using (StreamReader reader = new StreamReader(stream))
             {

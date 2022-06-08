@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\SpecFlow_Lab_AnnaP_home2\\SpecFlowRozetkaTest.csproj": {}
+  },
+  "projects": {
+    "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\Lab_AnnaP_home2\\RozetkaTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\Lab_AnnaP_home2\\RozetkaTest.csproj",
+        "projectName": "RozetkaTest",
+        "projectPath": "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\Lab_AnnaP_home2\\RozetkaTest.csproj",
+        "packagesPath": "C:\\Users\\AnnaP\\.nuget\\packages\\",
+        "outputPath": "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\Lab_AnnaP_home2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AnnaP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "DotNetSeleniumExtras.PageObjects.Core": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit.Console": {
+              "target": "Package",
+              "version": "[3.15.0, )"
+            },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.15.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[102.0.5005.6102, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\SpecFlow_Lab_AnnaP_home2\\SpecFlowRozetkaTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\SpecFlow_Lab_AnnaP_home2\\SpecFlowRozetkaTest.csproj",
+        "projectName": "SpecFlowRozetkaTest",
+        "projectPath": "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\SpecFlow_Lab_AnnaP_home2\\SpecFlowRozetkaTest.csproj",
+        "packagesPath": "C:\\Users\\AnnaP\\.nuget\\packages\\",
+        "outputPath": "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\SpecFlow_Lab_AnnaP_home2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AnnaP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\Lab_AnnaP_home2\\RozetkaTest.csproj": {
+                "projectPath": "C:\\QA_course\\QALaba\\Home1_git\\LabHome_POM\\Lab_AnnaP_home2\\Lab_AnnaP_home2\\RozetkaTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
