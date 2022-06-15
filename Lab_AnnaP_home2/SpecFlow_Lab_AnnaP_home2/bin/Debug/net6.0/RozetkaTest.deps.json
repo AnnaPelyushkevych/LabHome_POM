@@ -18,10 +18,10 @@
           "NUnit3TestAdapter": "4.0.0",
           "Selenium.Support": "4.1.0",
           "Selenium.WebDriver": "4.1.0",
-          "Selenium.WebDriver.ChromeDriver": "100.0.4896.6000",
+          "Selenium.WebDriver.ChromeDriver": "102.0.5005.6102",
           "SpecFlow": "3.9.74",
           "SpecFlow.NUnit": "3.9.74",
-          "WebDriverManager": "2.12.4",
+          "WebDriverManager": "2.13.0",
           "log4net": "2.0.14"
         },
         "runtime": {
@@ -509,7 +509,7 @@
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/100.0.4896.6000": {},
+      "Selenium.WebDriver.ChromeDriver/102.0.5005.6102": {},
       "SharpZipLib/1.3.3": {
         "runtime": {
           "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll": {
@@ -1072,7 +1072,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "WebDriverManager/2.12.4": {
+      "WebDriverManager/2.13.0": {
         "dependencies": {
           "AngleSharp": "0.16.1",
           "Microsoft.Win32.Registry": "5.0.0",
@@ -1408,12 +1408,12 @@
       "path": "selenium.webdriver/4.1.0",
       "hashPath": "selenium.webdriver.4.1.0.nupkg.sha512"
     },
-    "Selenium.WebDriver.ChromeDriver/100.0.4896.6000": {
+    "Selenium.WebDriver.ChromeDriver/102.0.5005.6102": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ttUzQ+lgWSifCMhw1MGUf4eFt9Vh88O1mua58huh5zLMZdqa/Wrh+lQGZnZrcvoifq85fWx7ESlbl57iPDaJ+w==",
-      "path": "selenium.webdriver.chromedriver/100.0.4896.6000",
-      "hashPath": "selenium.webdriver.chromedriver.100.0.4896.6000.nupkg.sha512"
+      "sha512": "sha512-TGqy37Fn7QXfkOYSLHWorYTPJyeUA88FolgwdDZCafs//FqlTMet4zNGH4nGBOH/bjeWHHBmjmAwtpu/L4iQcg==",
+      "path": "selenium.webdriver.chromedriver/102.0.5005.6102",
+      "hashPath": "selenium.webdriver.chromedriver.102.0.5005.6102.nupkg.sha512"
     },
     "SharpZipLib/1.3.3": {
       "type": "package",
@@ -1807,12 +1807,12 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "WebDriverManager/2.12.4": {
+    "WebDriverManager/2.13.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1tSMXGW11oQfSlsgqJ6I8BAr+8YW12qxBbTKx+cOpg9gSlgRXlMAV3lYwsAdRECPMQu4d9WM9BCw9US690Do0A==",
-      "path": "webdrivermanager/2.12.4",
-      "hashPath": "webdrivermanager.2.12.4.nupkg.sha512"
+      "sha512": "sha512-iRhvhkohRqZGPFeS0jbNsYYQy3VnBtEd6zByFXhHJl2s+pEYbAg9Sm6hDDW6Cy8CmsFrdwyJU0DDgh3pd4ZCgQ==",
+      "path": "webdrivermanager/2.13.0",
+      "hashPath": "webdrivermanager.2.13.0.nupkg.sha512"
     }
   }
 }

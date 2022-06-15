@@ -19,7 +19,3 @@ Scenario: [Check and compare product price]
 	Examples: 
 	  | product name     | product brand    | price			  |
       |  Ноутбуки        | HP               | 50000			  |
-	  |  Мишка для ПК    | Microsoft        | 500			  |
-      |  Смарт годинник	 | Apple            | 30000			  |
-	  |  Планшети        | Lenovo           | 2000			  |
-      |  Навушники       | Razer            | 1000			  |

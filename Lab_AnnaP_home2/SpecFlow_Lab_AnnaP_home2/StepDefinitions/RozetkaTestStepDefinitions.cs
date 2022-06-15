@@ -2,7 +2,6 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.Events;
 using WebDriverManager.DriverConfigs.Impl;
 
 //[assembly: Parallelizable(ParallelScope.All)]

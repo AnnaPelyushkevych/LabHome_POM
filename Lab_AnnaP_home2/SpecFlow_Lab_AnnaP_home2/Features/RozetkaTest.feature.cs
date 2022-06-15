@@ -78,10 +78,6 @@ namespace SpecFlowRozetkaTest.Features
         [NUnit.Framework.DescriptionAttribute("[Check and compare product price]")]
         [NUnit.Framework.CategoryAttribute("MyTest")]
         [NUnit.Framework.TestCaseAttribute("Ноутбуки", "HP", "50000", null)]
-        [NUnit.Framework.TestCaseAttribute("Мишка для ПК", "Microsoft", "500", null)]
-        [NUnit.Framework.TestCaseAttribute("Смарт годинник", "Apple", "30000", null)]
-        [NUnit.Framework.TestCaseAttribute("Планшети", "Lenovo", "2000", null)]
-        [NUnit.Framework.TestCaseAttribute("Навушники", "Razer", "1000", null)]
         public void CheckAndCompareProductPrice(string productName, string productBrand, string price, string[] exampleTags)
         {
             string[] @__tags = new string[] {
